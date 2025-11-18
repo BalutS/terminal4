@@ -1,3 +1,4 @@
+
 package org.unimag.controlador.Bus;
 
 import javafx.scene.layout.StackPane;
@@ -11,5 +12,8 @@ public class BusVistasControlador {
         return new VistaBusCrear(esce, anchito, altito);
     }
    
+    public static StackPane listarBus(Stage esce, double anchito, double altito) {
+        return new VistaBusListar(esce, anchito, altito);
+    }
   
 }

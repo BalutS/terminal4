@@ -1,3 +1,4 @@
+
 package org.unimag.vista.gestor;
 
 import javafx.stage.Stage;
@@ -100,7 +101,10 @@ public class VistaCabecera extends SubScene {
         });
 
         opcion2.setOnAction((e) -> {
-            System.out.println("Abrir lsitar Buses");
+            miPanelPrincipal.setCenter(
+                    AsientoVistasControlador.listarAsiento(miEscenario,
+                            Configuracion.ANCHO_APP, Configuracion.ALTO_CABECERA)
+            );
         });
 
         opcion3.setOnAction((e) -> {
@@ -131,7 +135,10 @@ public class VistaCabecera extends SubScene {
         });
 
         opcion2.setOnAction((e) -> {
-            System.out.println("Abrir lsitar Buses");
+            miPanelPrincipal.setCenter(
+                    BusVistasControlador.listarBus(miEscenario,
+                            Configuracion.ANCHO_APP, Configuracion.ALTO_CABECERA)
+            );
         });
 
         opcion3.setOnAction((e) -> {
@@ -162,7 +169,10 @@ public class VistaCabecera extends SubScene {
         });
 
         opcion2.setOnAction((e) -> {
-            System.out.println("Abrir lsitar Buses");
+            miPanelPrincipal.setCenter(
+                    ConductorVistasControlador.listarConductor(miEscenario,
+                            Configuracion.ANCHO_APP, Configuracion.ALTO_CABECERA)
+            );
         });
 
         opcion3.setOnAction((e) -> {
@@ -193,7 +203,10 @@ public class VistaCabecera extends SubScene {
         });
 
         opcion2.setOnAction((e) -> {
-            System.out.println("Abrir lsitar empresa");
+            miPanelPrincipal.setCenter(
+                    EmpresaVistasControlador.listarEmpresa(miEscenario,
+                            Configuracion.ANCHO_APP, Configuracion.ALTO_CABECERA)
+            );
         });
 
         opcion3.setOnAction((e) -> {
@@ -225,7 +238,10 @@ public class VistaCabecera extends SubScene {
         });
 
         opcion2.setOnAction((e) -> {
-            System.out.println("Abrir lsitar empresa");
+            miPanelPrincipal.setCenter(
+                    EquipajeVistasControlador.listarEquipaje(miEscenario,
+                            Configuracion.ANCHO_APP, Configuracion.ALTO_CABECERA)
+            );
         });
 
         opcion3.setOnAction((e) -> {
@@ -257,7 +273,10 @@ public class VistaCabecera extends SubScene {
         });
 
         opcion2.setOnAction((e) -> {
-            System.out.println("Abrir lsitar Buses");
+            miPanelPrincipal.setCenter(
+                    PasajeroVistasControlador.listarPasajero(miEscenario,
+                            Configuracion.ANCHO_APP, Configuracion.ALTO_CABECERA)
+            );
         });
 
         opcion3.setOnAction((e) -> {
@@ -288,7 +307,10 @@ public class VistaCabecera extends SubScene {
         });
 
         opcion2.setOnAction((e) -> {
-            System.out.println("Abrir lsitar Buses");
+            miPanelPrincipal.setCenter(
+                    RutaVistasControlador.listarRuta(miEscenario,
+                            Configuracion.ANCHO_APP, Configuracion.ALTO_CABECERA)
+            );
         });
 
         opcion3.setOnAction((e) -> {
@@ -319,7 +341,10 @@ public class VistaCabecera extends SubScene {
         });
 
         opcion2.setOnAction((e) -> {
-            System.out.println("Abrir lsitar Buses");
+            miPanelPrincipal.setCenter(
+                    TiqueteVistasControlador.listarTiquete(miEscenario,
+                            Configuracion.ANCHO_APP, Configuracion.ALTO_CABECERA)
+            );
         });
 
         opcion3.setOnAction((e) -> {
@@ -350,7 +375,10 @@ public class VistaCabecera extends SubScene {
         });
 
         opcion2.setOnAction((e) -> {
-            System.out.println("Abrir lsitar Buses");
+            miPanelPrincipal.setCenter(
+                    ViajeVistasControlador.listarViaje(miEscenario,
+                            Configuracion.ANCHO_APP, Configuracion.ALTO_CABECERA)
+            );
         });
 
         opcion3.setOnAction((e) -> {
